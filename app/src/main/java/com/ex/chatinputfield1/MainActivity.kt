@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-
         text_send.setTextColor(ContextCompat.getColor(context,R.color.before_color))
         emogy.setOnClickListener {
             Toast.makeText(this, "Emogy Clicked", Toast.LENGTH_SHORT).show()
