@@ -1,0 +1,52 @@
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/emogy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_emogy"
+            android:clickable="true"
+            />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_toEndOf="@id/emogy">
+
+        <EditText
+            android:id="@+id/input_field"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/edit_text_background2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="21sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/edit_text_background2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+</merge>
